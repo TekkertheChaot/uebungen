@@ -11,7 +11,7 @@ namespace ConsoleWindowSize
     {
         static void printHeightWidth()
         {
-            Console.WriteLine("Console Heigth: {0}\nConsole Width: {1}",Console.WindowHeight, Console.WindowWidth);
+            Console.WriteLine("Console Heigth: {0}\nConsole Width: {1}\nMax Height: {2}\nMax Width: {3}",Console.WindowHeight, Console.WindowWidth, Console.LargestWindowHeight, (Console.LargestWindowWidth - 3));
         }
         static void Main(string[] args)
         {
@@ -28,7 +28,7 @@ namespace ConsoleWindowSize
                     Console.Clear();
                 }
                 printHeightWidth();
-                Thread.Sleep(2);
+                Thread.Sleep(2000);
 
                 // Console.WindowWidth = rnd.Next();
                 
