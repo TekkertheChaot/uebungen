@@ -13,7 +13,7 @@ namespace PINGesperrt
         {
             string[] blackpin = new string[] { "1234", "0000", "1111" };    //Erstelle Blacklist
             string pin;           // <-- Der da übernimmt unsere PIN abfrage.
-            bool pass = true;
+            bool pass;
 
             do
             {
