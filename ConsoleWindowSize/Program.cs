@@ -31,7 +31,7 @@ namespace ConsoleWindowSize
                 Thread.Sleep(2000);
 
                 // Console.WindowWidth = rnd.Next();
-                // huehuehue
+                
             }
 
         }
