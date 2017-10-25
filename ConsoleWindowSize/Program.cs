@@ -30,8 +30,8 @@ namespace ConsoleWindowSize
                 printHeightWidth();
                 Thread.Sleep(2000);
 
-                Console.WindowWidth = rnd.Next();
-                
+                // Console.WindowWidth = rnd.Next();
+                // Halt Stop!
             }
 
         }
