@@ -29,13 +29,17 @@ namespace ObjekteGeldautomat
     {
         static void Main(string[] args)
         {
-            Konto konto1 = new Konto();     // Geht das nicht auch in einem Array?
-            Konto konto2 = new Konto();     // Geht das nicht auch in einem Array?
-            Konto konto3 = new Konto();     // Geht das nicht auch in einem Array?
-            konto1.buchung(100);
-            konto2.buchung(2000);
-            konto3.buchung(50000);
-            Console.WriteLine("Kontostand von Konto 1: {0}\nKontostand von Konto 2: {1}\nKontostand von Konto 3: {2}", konto1.getKtoStand(),konto2.getKtoStand(),konto3.getKtoStand());
+            Konto[] kontos = new Konto[70];
+            // foreach (Konto k in kontos)
+            // {
+            //     k = new Konto(); 
+            // }
+            for (int i = 0; i < kontos.Length; i++ )
+            {
+                kontos[i] = new Konto();
+                kontos[i].buchung(100+(i*1.3));
+            }
+            Console.WriteLine("Kontostand von Konto 1: {0}\nKontostand von Konto 2: {1}\nKontostand von Konto 3: {2}", kontos[0].getKtoStand(),kontos[1].getKtoStand(),kontos[2].getKtoStand());
             Console.WriteLine();
             Console.ReadLine();
         }
