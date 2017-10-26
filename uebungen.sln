@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{6E0B9D08-A061-40CF-B6EF-8455CDD95CD2}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWindowSize", "ConsoleWindowSize\ConsoleWindowSize.csproj", "{BBA91E2A-824B-4A99-B71B-4DEA0EFE1B37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjekteGeldautomat", "ObjekteGeldautomat\ObjekteGeldautomat.csproj", "{F2BB73E9-EB98-4B82-8A7B-9690A5263D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoundReifen", "AutoundReifen\AutoundReifen.csproj", "{640807B1-BE7C-4ED4-B59B-030680DAF063}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F2BB73E9-EB98-4B82-8A7B-9690A5263D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2BB73E9-EB98-4B82-8A7B-9690A5263D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2BB73E9-EB98-4B82-8A7B-9690A5263D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640807B1-BE7C-4ED4-B59B-030680DAF063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640807B1-BE7C-4ED4-B59B-030680DAF063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640807B1-BE7C-4ED4-B59B-030680DAF063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640807B1-BE7C-4ED4-B59B-030680DAF063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

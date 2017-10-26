@@ -29,17 +29,19 @@ namespace ObjekteGeldautomat
     {
         static void Main(string[] args)
         {
-            Konto[] kontos = new Konto[70];
+            Konto[] kontos = new Konto[4];
+            string[] arrString = new String[4];
             // foreach (Konto k in kontos)
             // {
             //     k = new Konto(); 
             // }
-            for (int i = 0; i < kontos.Length; i++ )
-            {
-                kontos[i] = new Konto();
-                kontos[i].buchung(100+(i*1.3));
-            }
-            Console.WriteLine("Kontostand von Konto 1: {0}\nKontostand von Konto 2: {1}\nKontostand von Konto 3: {2}", kontos[0].getKtoStand(),kontos[1].getKtoStand(),kontos[2].getKtoStand());
+            //for (int i = 0; i < kontos.Length; i++ )
+            //{
+            //    kontos[i] = new Konto();
+            //    kontos[i].buchung(100+(i*1.3));
+            //}
+            kontos[0].buchung(100);
+            //Console.WriteLine("Kontostand von Konto 1: {0}", kontos[0].getKtoStand());
             Console.WriteLine();
             Console.ReadLine();
         }
