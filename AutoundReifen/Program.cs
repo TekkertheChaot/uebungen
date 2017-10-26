@@ -10,7 +10,12 @@ namespace AutoundReifen
     {
         private Reifen[] arrReifen = new Reifen[4];
 
-        public bool checkReifen(int Reifennummer)
+        public int checkReifenDruck(int Reifennummer)       //Reifendruck abfragen
+        {
+            return arrReifen[Reifennummer].getDruck();
+        }
+
+        public bool checkReifen(int Reifennummer)           //Reifen existent?
         {
             if (arrReifen[Reifennummer] != null)
             {
@@ -22,25 +27,32 @@ namespace AutoundReifen
             }
         }
 
-        public void addReifen(int ReifenNummer, int ReifenDruck)
+        public void addReifen(int ReifenNummer, int ReifenDruck)    // Füge Reifen hinzu
         {
-            arrReifen[ReifenNummer-1] = new Reifen();
-            arrReifen[ReifenNummer-1].setDruck(ReifenDruck);
+            arrReifen[ReifenNummer] = new Reifen();
+            arrReifen[ReifenNummer].setDruck(ReifenDruck);
         }
-        public void removeReifen(int ReifenNummer)
+
+        public void removeReifen(int ReifenNummer)          // Nehme Reifen weg.
         {
-            arrReifen[ReifenNummer - 1] = null;
+            arrReifen[ReifenNummer] = null;
         }
     }
 
+
     class Reifen
     {
-        private int Druck;
-        public void setDruck(int druck)
+        private int druck;
+        public void setDruck(int setdruck)
         {
-            Druck = druck;
+            druck = setdruck;
+        }
+        public int getDruck()
+        {
+            return druck;
         }
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -49,7 +61,6 @@ namespace AutoundReifen
             Auto MyAuto = new Auto();
             MyAuto.addReifen(1, 21);
             MyAuto.addReifen(3, 25);
-            MyAuto.removeReifen(3);
 
             for (int i = 0; i < 4;i++ )
             {
@@ -58,7 +69,16 @@ namespace AutoundReifen
                     anzahlReifen++;
                 }
             }
+            
             Console.WriteLine("Das Auto hat {0} Reifen.", anzahlReifen);
+
+            for (int i = 0; i < 4; i++)
+            {
+                if (MyAuto.checkReifen(i) == true)
+                {
+                    Console.WriteLine("Reifen {0} hat einen Druck von {1} PSI.", i, MyAuto.checkReifenDruck(i));
+                }
+            }
             Console.ReadLine();
         }
     }
