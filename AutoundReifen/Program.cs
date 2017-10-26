@@ -47,6 +47,7 @@ namespace AutoundReifen
         {
             druck = setdruck;
         }
+        
         public int getDruck()
         {
             return druck;
@@ -59,6 +60,7 @@ namespace AutoundReifen
         {
             int anzahlReifen = 0;
             Auto MyAuto = new Auto();
+            
             MyAuto.addReifen(1, 21);
             MyAuto.addReifen(3, 25);
 
