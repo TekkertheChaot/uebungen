@@ -35,14 +35,15 @@ namespace ObjekteGeldautomat
             // {
             //     k = new Konto(); 
             // }
-            //for (int i = 0; i < kontos.Length; i++ )
-            //{
-            //    kontos[i] = new Konto();
-            //    kontos[i].buchung(100+(i*1.3));
-            //}
-            //kontos[0].buchung(100);
-            //Console.WriteLine("Kontostand von Konto 1: {0}", kontos[0].getKtoStand());
-            Console.WriteLine(kontos[0].buchung(121));
+            for (int i = 0; i < kontos.Length; i++ )
+            {
+                kontos[i] = new Konto();
+                kontos[i].buchung(100+(i*56.3));
+                Console.WriteLine(kontos[i].getKtoStand());
+            }
+            // kontos[0].buchung(100);
+            // Console.WriteLine("Kontostand von Konto 1: {0}", kontos[0].getKtoStand());
+            // Console.WriteLine(kontos[0].buchung(121));
             Console.ReadLine();
         }
     }
