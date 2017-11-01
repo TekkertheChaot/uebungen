@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjekteGeldautomat", "Objek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoundReifen", "AutoundReifen\AutoundReifen.csproj", "{640807B1-BE7C-4ED4-B59B-030680DAF063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konstruktor", "Konstruktor\Konstruktor.csproj", "{42E87BEC-03D5-4FEE-9488-0D8BA72ECC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methode", "Methode\Methode.csproj", "{CEA845CF-108A-4937-ACAC-ABF9487A102F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{640807B1-BE7C-4ED4-B59B-030680DAF063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{640807B1-BE7C-4ED4-B59B-030680DAF063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{640807B1-BE7C-4ED4-B59B-030680DAF063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E87BEC-03D5-4FEE-9488-0D8BA72ECC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E87BEC-03D5-4FEE-9488-0D8BA72ECC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E87BEC-03D5-4FEE-9488-0D8BA72ECC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E87BEC-03D5-4FEE-9488-0D8BA72ECC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA845CF-108A-4937-ACAC-ABF9487A102F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA845CF-108A-4937-ACAC-ABF9487A102F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA845CF-108A-4937-ACAC-ABF9487A102F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA845CF-108A-4937-ACAC-ABF9487A102F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

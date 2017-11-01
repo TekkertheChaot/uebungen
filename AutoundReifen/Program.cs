@@ -32,6 +32,11 @@ namespace AutoundReifen
             arrReifen[ReifenNummer].setDruck(ReifenDruck);
         }
 
+        public void addReifen(int ReifenNummer)    // Füge Reifen hinzu
+        {
+            arrReifen[ReifenNummer] = new Reifen(5);
+        }
+
         public void removeReifen(int ReifenNummer)          // Nehme Reifen weg.
         {
             arrReifen[ReifenNummer] = null;
@@ -41,6 +46,13 @@ namespace AutoundReifen
 
     class Reifen
     {
+        public Reifen()
+        {
+        }
+        public Reifen(int druck)
+        {
+            this.druck = druck;
+        }
         private int druck;
         public void setDruck(int setdruck)
         {
@@ -61,8 +73,8 @@ namespace AutoundReifen
         {
             int anzahlReifen = 0;                   //Speichert später die Anzahl der hinzugefügten Reifen
             Auto MyAuto = new Auto();               //Auto wird erstellt
-            MyAuto.addReifen(1, 21);                //Reifen werden angebracht (Es wird im 'arrReifen' die Stelle im Index 1 initiallisiert und der Reifen bekommt Druck (21))
-            MyAuto.addReifen(3, 25);
+            MyAuto.addReifen(1);                    //Reifen werden angebracht (Es wird im 'arrReifen' die Stelle im Index 1 initiallisiert und der Reifen bekommt Druck (21))
+            MyAuto.addReifen(3);
 
             for (int i = 0; i < 4;i++ )             //Zählt die angebrachten (initialisierten) Reifen
             {

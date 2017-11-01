@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace ConsoleApplication2
+namespace KleinerGeldautomat
 {
     class Program
     {
