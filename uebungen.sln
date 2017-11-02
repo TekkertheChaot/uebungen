@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{6E0B9D08-A061-40CF-B6EF-8455CDD95CD2}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konstruktor", "Konstruktor\Konstruktor.csproj", "{42E87BEC-03D5-4FEE-9488-0D8BA72ECC5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methode", "Methode\Methode.csproj", "{CEA845CF-108A-4937-ACAC-ABF9487A102F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeldKonstrukor", "GeldKonstrukor\GeldKonstrukor.csproj", "{B2AB9829-2F49-4D3F-BE9D-A5C15F105091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{CEA845CF-108A-4937-ACAC-ABF9487A102F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEA845CF-108A-4937-ACAC-ABF9487A102F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEA845CF-108A-4937-ACAC-ABF9487A102F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AB9829-2F49-4D3F-BE9D-A5C15F105091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AB9829-2F49-4D3F-BE9D-A5C15F105091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AB9829-2F49-4D3F-BE9D-A5C15F105091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AB9829-2F49-4D3F-BE9D-A5C15F105091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
