@@ -17,9 +17,8 @@ namespace GeldKonstrukor
             ktoNr = ktoGlobalNr++;
             ktoStand = 0;
         }
-        public Konto(double betrag)     
+        public Konto(double betrag): this()     
         {
-            ktoNr = ktoGlobalNr++;
             ktoStand = betrag;      
         }
         public double getKtoStand()
