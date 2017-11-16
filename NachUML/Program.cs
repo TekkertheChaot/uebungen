@@ -44,9 +44,6 @@ namespace NachUML
         private string name;
         private float preis;
         private int anzahl;
-        private string p1;
-        private double p2;
-        private int p3;
 
         public Produkt(string name, float preis, int anzahl)
         {
@@ -73,7 +70,7 @@ namespace NachUML
         static void Main(string[] args)
         {
             Firma f1 = new Firma();
-            Produkt p1 = new Produkt("4TiB Festplatte", 105.50f, 7000);
+            Produkt p1 = new Produkt("4TiB Festplatte", 195.50f, 7000);
             Produkt p2 = new Produkt("250 GiB SSD", 149.90f, 6000);
             Werk w1 = new Werk(p1);
             Werk w2 = new Werk(p2);
