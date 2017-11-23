@@ -10,24 +10,23 @@ namespace Fibonacci
     {
         static void Main(string[] args)
         {
-            double store0 = 0;
-            double store1 = 0;
-            double fibn = 0;
-
-            int n = 1;
-            for (int i = 0; i <= n; i++)
+            long getFibn(int place)
             {
-                if(n==0)
+                long m1 = 0,
+                       m2 = 1;
+    
+                for (int i = 0; i < place; i++)
                 {
-                    store1 = 1;
+                    long tmp = m1;
+                    m1 = m2;
+                    m2 = (tmp + m1);
                 }
-                fibn = (store0 + store1);
-                store0 = store1;
-                store1 = fibn;
-
+                return m1;
             }
-
-            Console.WriteLine(fibn);
+            for (int i = 0; i < 1490; i++)
+            {
+                Console.WriteLine(getFibn(i));
+            }
             Console.ReadLine();
         }
     }
