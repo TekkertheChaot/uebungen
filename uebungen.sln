@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeldKonstrukor", "GeldKonst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NachUML", "NachUML\NachUML.csproj", "{EC76683F-452B-4BB0-A334-A02BE3E724B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{5DE9F627-10A8-47ED-B6A4-A9DF1AC0A08A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{EC76683F-452B-4BB0-A334-A02BE3E724B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC76683F-452B-4BB0-A334-A02BE3E724B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC76683F-452B-4BB0-A334-A02BE3E724B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE9F627-10A8-47ED-B6A4-A9DF1AC0A08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE9F627-10A8-47ED-B6A4-A9DF1AC0A08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE9F627-10A8-47ED-B6A4-A9DF1AC0A08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE9F627-10A8-47ED-B6A4-A9DF1AC0A08A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

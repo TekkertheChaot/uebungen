@@ -28,7 +28,10 @@ namespace NachUML
     class Werk
     {
         private Produkt Produkt;
-
+        
+        public Werk()
+        {
+        }
         public Werk(Produkt Produkt)
         {
             this.Produkt = Produkt;
@@ -36,6 +39,10 @@ namespace NachUML
         public float berechneUmsatz()
         {
             return (this.Produkt.getAnzahl() * this.Produkt.getPreis());
+        }
+        public void newProduct(string name, float preis, int anzahl)
+        {
+            this.Produkt = new Produkt(name, preis, anzahl);
         }
     }
 
@@ -70,10 +77,10 @@ namespace NachUML
         static void Main(string[] args)
         {
             Firma f1 = new Firma();
-            Produkt p1 = new Produkt("4TiB Festplatte", 195.50f, 7000);
-            Produkt p2 = new Produkt("250 GiB SSD", 149.90f, 6000);
-            Werk w1 = new Werk(p1);
-            Werk w2 = new Werk(p2);
+            Werk w1 = new Werk();
+            Werk w2 = new Werk();
+            w1.newProduct("4TiB Festplatte", 195.50f, 7000);
+            w2.newProduct("250 GiB SSD", 149.90f, 6000);
 
             f1.addWerk(w1);
             f1.addWerk(w2);
