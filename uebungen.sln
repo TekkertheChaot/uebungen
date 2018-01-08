@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{6E0B9D08-A061-40CF-B6EF-8455CDD95CD2}"
 EndProject
@@ -28,6 +28,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{5DE9F627-10A8-47ED-B6A4-A9DF1AC0A08A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursion", "Rekursion\Rekursion.csproj", "{060EF8FB-C202-402E-8018-159001BCFD8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooManyDimensions", "TooManyDimensions\TooManyDimensions.csproj", "{19696D33-1BD8-4FFC-8E86-C7E9E6CBC10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZahlZerlegen", "ZahlZerlegen\ZahlZerlegen.csproj", "{8F30081C-6C18-4A2F-98C0-72168C70DEFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{060EF8FB-C202-402E-8018-159001BCFD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{060EF8FB-C202-402E-8018-159001BCFD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{060EF8FB-C202-402E-8018-159001BCFD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19696D33-1BD8-4FFC-8E86-C7E9E6CBC10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19696D33-1BD8-4FFC-8E86-C7E9E6CBC10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19696D33-1BD8-4FFC-8E86-C7E9E6CBC10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19696D33-1BD8-4FFC-8E86-C7E9E6CBC10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F30081C-6C18-4A2F-98C0-72168C70DEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F30081C-6C18-4A2F-98C0-72168C70DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F30081C-6C18-4A2F-98C0-72168C70DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F30081C-6C18-4A2F-98C0-72168C70DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
