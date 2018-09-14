@@ -10,7 +10,7 @@ namespace getset
     {
         static void Main(string[] args)
         {
-            demo.Integer = 4-5;
+            demo.Integer = 4-6;
             Console.WriteLine(demo.Integer);
             Console.ReadLine();
         }
